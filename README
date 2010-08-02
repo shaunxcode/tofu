@@ -1,1 +1,10 @@
-Slang is a smalltalk dialect that sits on top of php. It implements the grammar of Smalltalk 80 and then adds some extra syntactic sugar for things like dictionaries {:symbol 'value'} and quasiquote `(). Rather than storing code in an image individual files are used to represent methods so you can still hack code w/ a text editor or you can utilize the web based code browsers/editors. This also means keeping a code base in git/svn etc. is still viable and gives you method-level revision history! 
+  __________
+/_________ /|
+|         | | 
+| |     | | |
+|    |    | |
+|  ~~~~~  | |
+|         | |
+| [:tofu] |/ 
+ ---------
+Tofu is a smalltalk dialect that sits on top of php. It implements the grammar of Smalltalk 80 and then adds some extra syntactic sugar for things like dictionaries {key: 'value'}, arrays {1 2 3} and quasiquote `(). Rather than storing code in an image individual files are used to represent methods so you can still hack code w/ a text editor or you can utilize the web based code browsers/editors. This also means keeping a code base in git/svn etc. is still viable and gives you method-level revision history! 
